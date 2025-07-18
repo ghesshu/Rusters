@@ -6,45 +6,42 @@ import Image from 'next/image';
 
 const roadmapData = [
   {
-    badge: "Q1 - 2024",
-    title: "Concept & Planning",
+    badge: "Phase 1",
+    title: "Genesis Launch",
     items: [
-      "Conduct in-depth analysis to identify market opportunities and challenges.",
-      "Develop a clear and innovative concept tailored to industry needs.",
-      "Prepare a comprehensive document detailing the project’s vision, goals, and tokenomics."
-    ]
+      "RASTR launch on Ethereum",
+      "AI agent mesh v1 live",
+      "Integration with DEX aggregators",
+    ],
   },
   {
-    badge: "Q2 - 2024",
-    title: "Community Building",
+    badge: "Phase 2",
+    title: "Growth & UI",
     items: [
-      "Connect with potential investors and users to create awareness.",
-      "Leverage social platforms to grow the community and keep them informed.",
-      "Offer rewards and bonuses to early supporters to build trust.",
-      "Host AMAs and sessions to engage."
-    ]
+      "dApp UI + dashboard",
+      "Deploy Sentiment & Liquidity agents",
+      "Listings on CoinGecko & CMC",
+    ],
   },
   {
-    badge: "Q3 - Q2 2025",
-    title: "ICO Launch",
+    badge: "Phase 3",
+    title: "Optimization & Tuning:",
     items: [
-      "Strong community interest and early investments that build momentum.",
-      "Achieving target funding goals during the ICO period, project viability.",
-      "Successful listing on major exchanges, increasing liquidity and user access.",
-      "Key feature milestones achieved."
-    ]
+      "Strategy parameter adjustment tools",
+      "User-defined agent risk profiles",
+    ],
   },
-  {
-    badge: "Q4 - 2025",
-    title: "Token Distribution",
-    items: [
-      "Tokens for public sale to investors.",
-      "Allocate tokens for the team.",
-      "Set aside tokens for future needs.",
-      "Tokens will drive community and marketing efforts.",
-      "Reward participants for promotion."
-    ]
-  }
+  // {
+  //   badge: "Q4 - 2025",
+  //   title: "Token Distribution",
+  //   items: [
+  //     "Tokens for public sale to investors.",
+  //     "Allocate tokens for the team.",
+  //     "Set aside tokens for future needs.",
+  //     "Tokens will drive community and marketing efforts.",
+  //     "Reward participants for promotion."
+  //   ]
+  // }
 ];
 
 const RoadmapSection = () => {
