@@ -1,17 +1,16 @@
 import React from "react";
-import Link from 'next/link';
-import shape2 from '/public/images/shapes/shape_section_divider_1.svg';
-import wImg from '/public/images/about/ico_whitepager_image.webp';
-import plogo1 from '/public/images/partners/partner_logo_1.svg';
-import plogo2 from '/public/images/partners/partner_logo_2.svg';
-import check from '../../icons/icon_check.svg';
+import Link from "next/link";
+import shape2 from "/public/images/shapes/shape_section_divider_1.svg";
+import wImg from "/public/images/about/ico_whitepager_image.webp";
+import plogo1 from "/public/images/partners/partner_logo_1.svg";
+import plogo2 from "/public/images/partners/partner_logo_2.svg";
+import check from "../../icons/icon_check.svg";
 import Image from "next/image";
 
 const WhitepaperSection = () => {
-
   const ClickHandler = () => {
     window.scrollTo(10, 0);
-  }
+  };
 
   return (
     <section
@@ -19,10 +18,7 @@ const WhitepaperSection = () => {
       className="ico_whitepaper_section section_space pb-0 section_decoration section_shadow_top"
     >
       <div className="decoration_item shape_divider_1">
-        <Image
-          src={shape2}
-          alt="Shape Divider"
-        />
+        <Image src={shape2} alt="Shape Divider" />
       </div>
       <div className="container">
         <div
@@ -46,13 +42,9 @@ const WhitepaperSection = () => {
                 style={{
                   backgroundImage: `url('/images/about/whitepaper_image_bg.webp')`,
                 }}
-
               >
                 <div className="image_block">
-                  <Image
-                    src={wImg}
-                    alt="ICO White Paper"
-                  />
+                  <Image src={wImg} alt="ICO White Paper" />
                 </div>
               </div>
             </div>
@@ -61,7 +53,7 @@ const WhitepaperSection = () => {
                 <div className="info_wrap_1">
                   <h3 className="heading_text">Audit Results</h3>
                   <p>
-                    Coinlye has been successfully audited by the trusted
+                    Rusters has been successfully audited by the trusted
                     organizations BitTorrent and Stacks. Passing these audits
                     underscores our dedication to building a safe and robust
                     solution for all users.
@@ -70,10 +62,7 @@ const WhitepaperSection = () => {
                     <li>
                       <div className="ico_partner_logo">
                         <a className="logo_wrap" href="#!">
-                          <Image
-                            src={plogo1}
-                            alt="Partner Logo"
-                          />
+                          <Image src={plogo1} alt="Partner Logo" />
                           <span className="dot_1"></span>
                           <span className="dot_2"></span>
                           <span className="dot_3"></span>
@@ -84,10 +73,7 @@ const WhitepaperSection = () => {
                     <li>
                       <div className="ico_partner_logo">
                         <a className="logo_wrap" href="#!">
-                          <Image
-                            src={plogo2}
-                            alt="Partner Logo"
-                          />
+                          <Image src={plogo2} alt="Partner Logo" />
                           <span className="dot_1"></span>
                           <span className="dot_2"></span>
                           <span className="dot_3"></span>
@@ -108,21 +94,17 @@ const WhitepaperSection = () => {
                       <ul className="iconlist_block unordered_list_block">
                         <li>
                           <span className="iconlist_icon">
-                            <Image
-                              src={check}
-                              alt="Icon Check"
-                            />
+                            <Image src={check} alt="Icon Check" />
                           </span>
                           <span className="iconlist_label">White Paper.</span>
                         </li>
                         <li>
                           <span className="iconlist_icon">
-                            <Image
-                              src={check}
-                              alt="Icon Check"
-                            />
+                            <Image src={check} alt="Icon Check" />
                           </span>
-                          <span className="iconlist_label">Privacy & Policy.</span>
+                          <span className="iconlist_label">
+                            Privacy & Policy.
+                          </span>
                         </li>
                       </ul>
                     </div>
@@ -130,26 +112,26 @@ const WhitepaperSection = () => {
                       <ul className="iconlist_block unordered_list_block">
                         <li>
                           <span className="iconlist_icon">
-                            <Image
-                              src={check}
-                              alt="Icon Check"
-                            />
+                            <Image src={check} alt="Icon Check" />
                           </span>
-                          <span className="iconlist_label">Terms Of Coin Sale.</span>
+                          <span className="iconlist_label">
+                            Terms Of Coin Sale.
+                          </span>
                         </li>
                         <li>
                           <span className="iconlist_icon">
-                            <Image
-                              src={check}
-                              alt="Icon Check"
-                            />
+                            <Image src={check} alt="Icon Check" />
                           </span>
                           <span className="iconlist_label">One Pager.</span>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <Link className="ico_creative_btn" href="/blog" onClick={ClickHandler}>
+                  <Link
+                    className="ico_creative_btn"
+                    href="/blog"
+                    onClick={ClickHandler}
+                  >
                     <span className="btn_wrapper">
                       <span className="btn_icon_left">
                         <small className="dot_top"></small>

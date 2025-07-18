@@ -1,15 +1,15 @@
-import React from 'react';
-import { Link } from 'react-scroll'
-import NavLink from 'next/link'
-import shapeCartoon1 from '/public/images/shapes/shape_cartoon_5.png';
-import shapeCartoon2 from '/public/images/shapes/shape_cartoon_6.png';
-import shapeCartoon3 from '/public/images/shapes/shape_cartoon_7.png';
-import Image from 'next/image';
+import React from "react";
+import { Link } from "react-scroll";
+import NavLink from "next/link";
+import shapeCartoon1 from "/public/images/shapes/shape_cartoon_5.png";
+import shapeCartoon2 from "/public/images/shapes/shape_cartoon_6.png";
+import shapeCartoon3 from "/public/images/shapes/shape_cartoon_7.png";
+import Image from "next/image";
 
 const Footer = () => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
-}
+  };
   return (
     <footer className="meme_site_footer section_decoration">
       <div className="container">
@@ -27,32 +27,68 @@ const Footer = () => {
           data-aos-delay="100"
         >
           <li>
-            <Link to="id_token_offer" spy={true} smooth={true} duration={500} offset={-100}>
+            <Link
+              to="id_token_offer"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
               <span className="pagelist_label">Token Offer</span>
             </Link>
           </li>
           <li>
-            <Link to="id_memecoin_service_section" spy={true} smooth={true} duration={500} offset={-100}>
+            <Link
+              to="id_memecoin_service_section"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
               <span className="pagelist_label">Features</span>
             </Link>
           </li>
           <li>
-            <Link to="id_token_offer" spy={true} smooth={true} duration={500} offset={-100}>
-              <span className="pagelist_label">About Coinlye</span>
+            <Link
+              to="id_token_offer"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
+              <span className="pagelist_label">About Rusters</span>
             </Link>
           </li>
           <li>
-            <Link to="how_to_buy_memecoin_section" spy={true} smooth={true} duration={500} offset={-100}>
+            <Link
+              to="how_to_buy_memecoin_section"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
               <span className="pagelist_label">How to Buy</span>
             </Link>
           </li>
           <li>
-            <Link to="id_meme_roadmap_section" spy={true} smooth={true} duration={500} offset={-100}>
+            <Link
+              to="id_meme_roadmap_section"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
               <span className="pagelist_label">Roadmap</span>
             </Link>
           </li>
           <li>
-            <Link to="meme_tokenomics_section" spy={true} smooth={true} duration={500} offset={-100}>
+            <Link
+              to="meme_tokenomics_section"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-100}
+            >
               <span className="pagelist_label">Tokenomics</span>
             </Link>
           </li>
@@ -64,20 +100,32 @@ const Footer = () => {
           data-aos-delay="200"
         >
           <li>
-            <NavLink className="memecoin_btn bg-white" href="/token" onClick={ClickHandler}>
+            <NavLink
+              className="memecoin_btn bg-white"
+              href="/token"
+              onClick={ClickHandler}
+            >
               <span className="btn_label">Buy Now a Token</span>
               <span
                 className="btn_bg"
-                style={{ maskImage: `url(${'/images/shapes/btn_mask_bg.png'})` }}
+                style={{
+                  maskImage: `url(${"/images/shapes/btn_mask_bg.png"})`,
+                }}
               ></span>
             </NavLink>
           </li>
           <li>
-            <NavLink className="memecoin_btn bg-light" href="/token" onClick={ClickHandler}>
+            <NavLink
+              className="memecoin_btn bg-light"
+              href="/token"
+              onClick={ClickHandler}
+            >
               <span className="btn_label">Dextools Chart</span>
               <span
                 className="btn_bg"
-                style={{ maskImage: `url(${'/images/shapes/btn_mask_bg.png'})` }}
+                style={{
+                  maskImage: `url(${"/images/shapes/btn_mask_bg.png"})`,
+                }}
               ></span>
             </NavLink>
           </li>
@@ -86,7 +134,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <p className="copyright_text m-0">
-                Copyright© 2025 Coinlye. All rights reserved.
+                Copyright© 2025 Rusters. All rights reserved.
               </p>
             </div>
             <div className="col-lg-6">

@@ -32,7 +32,7 @@ const HomePage = () => {
                     <CoinpaySections />
                     <RoadmapSection />
                     {/* <TeamSection /> */}
-                    <WhitepaperSection />
+                    {/* <WhitepaperSection /> */}
                     <EventSection />
                     <FaqSection /> 
                     <Scrollbar />

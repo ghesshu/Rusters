@@ -105,7 +105,7 @@ const Hero = () => {
         <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
           <div className="ico_countdown_progress_box">
             <div className="ico_heading_block text-center mb-0">
-              <h2 className="highlight_title mb-0">Start buy coinlye now!</h2>
+              <h2 className="highlight_title mb-0">Start buy Rusters now!</h2>
             </div>
             <div
               className="countdownbg"
