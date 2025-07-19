@@ -372,7 +372,7 @@ const BlogSingle = (props) => {
                       <div className="comment_author_thumbnail">
                         <Image
                           src={avatar2}
-                          alt="Rusters - Comment Author Avatar"
+                          alt="Rasters - Comment Author Avatar"
                         />
                       </div>
                       <div className="comment_author_content">
@@ -400,7 +400,7 @@ const BlogSingle = (props) => {
                           <div className="comment_author_thumbnail">
                             <Image
                               src={avatar3}
-                              alt="Rusters - Comment Author Avatar"
+                              alt="Rasters - Comment Author Avatar"
                             />
                           </div>
                           <div className="comment_author_content">
@@ -430,7 +430,7 @@ const BlogSingle = (props) => {
                           <div className="comment_author_thumbnail">
                             <Image
                               src={avatar2}
-                              alt="Rusters - Comment Author Avatar"
+                              alt="Rasters - Comment Author Avatar"
                             />
                           </div>
                           <div className="comment_author_content">
@@ -460,7 +460,7 @@ const BlogSingle = (props) => {
                       <div className="comment_author_thumbnail">
                         <Image
                           src={avatar4}
-                          alt="Rusters - Comment Author Avatar"
+                          alt="Rasters - Comment Author Avatar"
                         />
                       </div>
                       <div className="comment_author_content">
@@ -573,7 +573,7 @@ const BlogSingle = (props) => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Rusters@example.com"
+                    placeholder="Rasters@example.com"
                   />
                   <button className="submit_btn" type="submit">
                     Subscribe

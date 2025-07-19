@@ -49,7 +49,7 @@ const AboutSection = () => {
                 data-aos-duration="800"
               >
                 <h3 className="title_text text-uppercase text-start mb-0">
-                  It’s a <mark>Meme</mark> Rusters!
+                  It’s a <mark>Meme</mark> Rasters!
                 </h3>
                 <button
                   className="video_popup_block"

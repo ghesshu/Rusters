@@ -13,7 +13,9 @@ const SolutionSection = () => {
           data-aos="fade-up"
           data-aos-duration="600"
         >
-          <h2 className="heading_text mb-0">Rusters ICO Problem & Solution</h2>
+          <h2 className="heading_text mb-0">
+            Traditional Trading Problem & Rasters Solution
+          </h2>
         </div>
 
         <div
@@ -29,25 +31,25 @@ const SolutionSection = () => {
                 <span className="icon">
                   <Image src={sIcon1} alt="Icon Man With Question" />
                 </span>
-                <span className="text">ICO Problem</span>
+                <span className="text">❌ Traditional Trading Problem</span>
               </h3>
               <ul className="iconlist_block unordered_list_block">
                 {[
                   {
-                    label: "Identify the Issue.",
-                    info: "We ensure transparency with clear updates.",
+                    label: "Lack of Real-Time Insight",
+                    info: "Manual traders and basic bots can't react fast enough to sudden market changes, news, or sentiment shifts.",
                   },
                   {
-                    label: "Impact of the Problem.",
-                    info: "The problem in an ICO attracts investor confidence.",
+                    label: "High Risk Exposure",
+                    info: "No automatic protection against scams, honeypots, or liquidity traps—leading to costly losses.",
                   },
                   {
-                    label: "Reduced Investment.",
-                    info: "Less trust means fewer investments.",
+                    label: "Emotion-Based Decisions",
+                    info: "Fear, greed, and FOMO drive most retail trading behavior—leading to poor timing and missed exits.",
                   },
                   {
-                    label: "Scaling and Obsolete Tool.",
-                    info: "Limited scalability hinders growth and expansion.",
+                    label: "Fragmented Tools",
+                    info: "Risk, sentiment, liquidity, and execution are handled separately—if at all—making strategies inefficient.",
                   },
                 ].map((item, index) => (
                   <li key={index}>
@@ -69,25 +71,25 @@ const SolutionSection = () => {
                 <span className="icon">
                   <Image src={sIcon2} alt="Icon Bulb" />
                 </span>
-                <span className="text">ICO Solution</span>
+                <span className="text">✅ Rasters Solution</span>
               </h3>
               <ul className="iconlist_block unordered_list_block">
                 {[
                   {
-                    label: "Introduce the Project and Token.",
-                    info: "Our ICO Vision is building a Decentralized Ad Network.",
+                    label: "AI-Native Autonomous Platform",
+                    info: "Rasters uses a network of AI agents that operate in sync—covering risk, strategy, sentiment, and liquidity in real time.",
                   },
                   {
-                    label: "Key Features or Innovations.",
-                    info: "Advanced tech, top security, and smooth scalability.",
+                    label: "Built-In Protection",
+                    info: "The Risk Agent auto-detects threats before you trade, protecting users from dangerous contracts and exploitative pools.",
                   },
                   {
-                    label: "Benefits to Users and Investors.",
-                    info: "Transparency, security, and growth potential.",
+                    label: "Emotionless, Data-Driven Execution",
+                    info: "No panic. No FOMO. Trades are executed only when conditions align across AI-driven sentiment and strategy signals.",
                   },
                   {
-                    label: "Global Single-Platform.",
-                    info: "Seamless access and transactions worldwide.",
+                    label: "All-in-One Intelligence Mesh",
+                    info: "All four agents—Risk, Strategy, Sentiment, and Liquidity—work as one coordinated system, so you're never out of sync with the market.",
                   },
                 ].map((item, index) => (
                   <li key={index}>

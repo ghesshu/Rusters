@@ -39,7 +39,7 @@ const FeaturesSection = () => {
               data-aos-duration="600"
             >
               <h2 className="heading_text mb-0">
-                Why Rusters is Worth Buying Today?
+                Why Rasters is Worth Buying Today?
               </h2>
             </div>
             <ul className="ico_features_group unordered_list_block">
@@ -83,12 +83,12 @@ const FeaturesSection = () => {
                 </div>
               </li>
               <li>
-                <h4 className="heading_text">Quantity Rusters</h4>
+                <h4 className="heading_text">Quantity Rasters</h4>
                 <div className="investment_value">
                   <span className="odometer" data-count="60000">
                     <CountUp end={6000} enableScrollSpy scrollSpyOnce />
                   </span>
-                  <span>Rusters</span>
+                  <span>Rasters</span>
                 </div>
               </li>
             </ul>
@@ -101,7 +101,7 @@ const FeaturesSection = () => {
               data-aos-delay="100"
             >
               <p className="purchase_price_rate mb-0 text-secondary">
-                Purchase Price Rusters <strong>0.166$</strong>
+                Purchase Price Rasters <strong>0.166$</strong>
               </p>
               <div className="chart_image">
                 <Image src={shape1} alt="Shape Chart" />

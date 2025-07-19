@@ -12,7 +12,7 @@ const processSteps = [
   {
     title: "Go to Buy page",
     description:
-      "Visit the Buy page to purchase Meme Rusters securely and join the crypto community today!",
+      "Visit the Buy page to purchase Meme Rasters securely and join the crypto community today!",
     number: "1",
     delay: "100",
   },
@@ -24,9 +24,9 @@ const processSteps = [
     delay: "200",
   },
   {
-    title: "Buy Rusters token",
+    title: "Buy Rasters token",
     description:
-      "Buy Rusters Token now and join the growing community shaping the future of crypto!",
+      "Buy Rasters Token now and join the growing community shaping the future of crypto!",
     number: "3",
     delay: "300",
   },
@@ -56,11 +56,11 @@ const ProcessSection = () => {
             <div className="col-lg-7">
               <div className="memecoin_heading_block">
                 <h2 className="heading_text text-uppercase">
-                  How To Buy <mark>Meme</mark> Rusters Token
+                  How To Buy <mark>Meme</mark> Rasters Token
                 </h2>
                 <p className="heading_description mb-0 pe-lg-5">
                   Set up a wallet, buy ETH/BNB, connect to a DEX, swap for Meme
-                  Rusters, and confirm the transaction.
+                  Rasters, and confirm the transaction.
                 </p>
               </div>
               <Link

@@ -150,7 +150,7 @@ const ChooseSection = () => {
       <div className="container">
         <div className="memecoin_heading_block text-center">
           <h2 className="heading_text text-uppercase mb-0">
-            Why Choose <mark>Rusters</mark>
+            Why Choose <mark>Rasters</mark>
           </h2>
         </div>
 

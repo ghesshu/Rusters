@@ -61,7 +61,7 @@ const Header = (props) => {
                                             <ul className="dropdown-menu" aria-labelledby="homes_submenu">
                                                 <li>
                                                     <NavLink onClick={ClickHandler} className="dropdown-item" href="/home_ico">
-                                                        <span className="nav_link_label">Rusters ICO</span>
+                                                        <span className="nav_link_label">Rasters ICO</span>
                                                     </NavLink>
                                                 </li>
                                                 <li>
@@ -273,7 +273,7 @@ const Header = (props) => {
                   <NavLink
                     onClick={ClickHandler}
                     className="ico_btn_outline"
-                    href="/sign_in"
+                    href="https://rasters.vercel.app/"
                   >
                     <span className="btn_icon">
                       <i className="fa-solid fa-user"></i>

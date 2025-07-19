@@ -32,7 +32,7 @@ const ElimentsSection = () => {
           </div>
           <div className="shape_heart">
             <Image src={heartShape} alt="Heart Shape" />
-            <Image className="coinpay_animate" src={coinpayGif} alt="Rusters" />
+            <Image className="coinpay_animate" src={coinpayGif} alt="Rasters" />
           </div>
         </div>
       </div>

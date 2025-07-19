@@ -131,7 +131,7 @@ const Footer = () => {
           </div>
           <div className="column">
             <h3 className="footer_title text-uppercase">
-              Let’s Rusters great together.
+              Let’s Rasters great together.
             </h3>
             <NavLink
               className="ico_creative_btn"
@@ -172,7 +172,7 @@ const Footer = () => {
         </div>
         <div className="footer_bottom text-center">
           <p className="copyright_text m-0 text-secondary">
-            Copyright© 2025 Rusters. All rights reserved.
+            Copyright© 2025 Rasters. All rights reserved.
           </p>
         </div>
       </div>

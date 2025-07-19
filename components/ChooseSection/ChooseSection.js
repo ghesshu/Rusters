@@ -11,31 +11,34 @@ import Image from "next/image";
 const services = [
   {
     icon: icon1,
-    title: "Universal ATM",
-    description: "ATM for stable currency unicast any other currencies.",
+    title: "Risk Intelligence",
+    description:
+      "Rasters' Risk Agent continuously scans token contracts, liquidity pools, and on-chain activity to protect you from honeypots, rugs, and malicious code—before a trade is ever placed.",
     delay: 200,
   },
   {
     icon: icon2,
-    title: "Smart Banking Branch",
-    description: "KYC handles lender negotiation or insurance procedures.",
+    title: "AI-Driven Market Sentiment",
+    description:
+      "Our Sentiment Agent monitors real-time social signals from Twitter, Discord, and Reddit to catch early hype waves or exit before panic sets in. Trade with the trend, not behind it.",
     delay: 300,
   },
   {
     icon: icon3,
-    title: "Automation",
+    title: "Real-Time Automation",
     description:
-      "Payment of invoices, create, deposited or integration for betting offices.",
+      "With fully autonomous coordination between its four AI agents, Rasters builds and executes adaptive trading strategies—without manual input or delay.",
     delay: 400,
   },
   {
     icon: icon4,
-    title: "Decentralization",
+    title: "Decentralized Intelligence Mesh",
     description:
-      "All transactions are in a blockchain, each machine is a network builder.",
+      "Each agent operates independently but communicates in real-time. Together, they form a synchronized, decentralized AI mesh that reacts instantly to volatile markets.",
     delay: 500,
   },
 ];
+
 
 const ChooseSection = () => {
   return (
@@ -53,7 +56,7 @@ const ChooseSection = () => {
           data-aos="fade-up"
           data-aos-duration="600"
         >
-          <h2 className="heading_text mb-0">Why You Choose Rusters?</h2>
+          <h2 className="heading_text mb-0">Why You Choose Rasters?</h2>
         </div>
 
         <div className="row m-lg-0 justify-content-center">

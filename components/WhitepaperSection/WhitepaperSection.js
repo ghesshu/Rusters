@@ -53,7 +53,7 @@ const WhitepaperSection = () => {
                 <div className="info_wrap_1">
                   <h3 className="heading_text">Audit Results</h3>
                   <p>
-                    Rusters has been successfully audited by the trusted
+                    Rasters has been successfully audited by the trusted
                     organizations BitTorrent and Stacks. Passing these audits
                     underscores our dedication to building a safe and robust
                     solution for all users.

@@ -31,7 +31,7 @@ const events = [
     id: 3,
     date: "24, Nov 2025",
     location: "New York, NY 10036, USA",
-    title: "Rusters Impact Rising Stars in the Crypto Space.",
+    title: "Rasters Impact Rising Stars in the Crypto Space.",
     imageUrl: eventImage2,
     ticketUrl: "/contact",
   },

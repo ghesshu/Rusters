@@ -81,7 +81,7 @@ const Header2 = (props) => {
                             className="dropdown-item"
                             href="/home_ico"
                           >
-                            <span className="nav_link_label">Rusters ICO</span>
+                            <span className="nav_link_label">Rasters ICO</span>
                           </NavLink>
                         </li>
                         <li>

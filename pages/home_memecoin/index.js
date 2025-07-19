@@ -27,7 +27,7 @@ const HomePage = () => {
                     <ProcessSection />
                     <ElimentsSection />
                     <RoadmapSection />
-                    <TokenomicsSection />
+                    {/* <TokenomicsSection /> */}
                     <FAQSection />
                 </main>
                 <Footer />

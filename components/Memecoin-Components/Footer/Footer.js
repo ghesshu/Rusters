@@ -56,7 +56,7 @@ const Footer = () => {
               duration={500}
               offset={-100}
             >
-              <span className="pagelist_label">About Rusters</span>
+              <span className="pagelist_label">About Rasters</span>
             </Link>
           </li>
           <li>
@@ -134,7 +134,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <p className="copyright_text m-0">
-                Copyright© 2025 Rusters. All rights reserved.
+                Copyright© 2025 Rasters. All rights reserved.
               </p>
             </div>
             <div className="col-lg-6">

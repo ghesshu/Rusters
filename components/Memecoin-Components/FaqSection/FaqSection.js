@@ -2,39 +2,39 @@ import React, { useEffect } from "react";
 
 const faqData = [
   {
-    question: "What is Meme Rusters and How Does It Impact Crypto?",
+    question: "What is Meme Rasters and How Does It Impact Crypto?",
     answer:
-      "Meme Rusters is a fun, community-driven cryptocurrency designed to blend innovation, value, and meme culture on the blockchain.",
+      "Meme Rasters is a fun, community-driven cryptocurrency designed to blend innovation, value, and meme culture on the blockchain.",
     id: 1,
   },
   {
-    question: "What makes meme Rusters unique and how does it work?",
+    question: "What makes meme Rasters unique and how does it work?",
     answer:
-      "Meme Rusters combines meme culture with utility, offering fast transactions, low fees, and community-driven value on a decentralized blockchain.",
+      "Meme Rasters combines meme culture with utility, offering fast transactions, low fees, and community-driven value on a decentralized blockchain.",
     id: 2,
   },
   {
-    question: "How do I store my meme Rusters tokens safely?",
+    question: "How do I store my meme Rasters tokens safely?",
     answer:
-      "Store Meme Rusters tokens in a secure hardware or software wallet, enable two-factor authentication, and back up your recovery phrase.",
+      "Store Meme Rasters tokens in a secure hardware or software wallet, enable two-factor authentication, and back up your recovery phrase.",
     id: 3,
   },
   {
-    question: "How can I buy meme Rusters and begin investing in crypto?",
+    question: "How can I buy meme Rasters and begin investing in crypto?",
     answer:
-      "To buy Meme Rusters, sign up on an exchange, deposit funds, place an order, and store your coins securely. Always research before investing.",
+      "To buy Meme Rasters, sign up on an exchange, deposit funds, place an order, and store your coins securely. Always research before investing.",
     id: 4,
   },
   {
-    question: "Is meme Rusters available globally and accessible to all?",
+    question: "Is meme Rasters available globally and accessible to all?",
     answer:
-      "Yes, Meme Rusters is globally accessible and can be traded on supported exchanges from anywhere.",
+      "Yes, Meme Rasters is globally accessible and can be traded on supported exchanges from anywhere.",
     id: 5,
   },
   {
-    question: "What’s the future of meme Rusters and its growth?",
+    question: "What’s the future of meme Rasters and its growth?",
     answer:
-      "Meme Rusters's future looks promising, with growth driven by adoption, community support, and increased use cases in the crypto space.",
+      "Meme Rasters's future looks promising, with growth driven by adoption, community support, and increased use cases in the crypto space.",
     id: 6,
   },
 ];

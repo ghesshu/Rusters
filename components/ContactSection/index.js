@@ -34,7 +34,7 @@ const ContactSection = () => {
                     <span className="icon">
                       <i className="fa-solid fa-envelope"></i>
                     </span>
-                    <span className="label">Rusters@example.com</span>
+                    <span className="label">Rasters@example.com</span>
                   </Link>
                 </li>
               </ul>

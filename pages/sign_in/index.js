@@ -43,7 +43,7 @@ const SigninPage = (props) => {
       const email = value.email;
 
       if (email.match(userRegex)) {
-        toast.success("Successfully Login on Rusters !");
+        toast.success("Successfully Login on Rasters !");
         router.push("/home_ico");
       }
     } else {

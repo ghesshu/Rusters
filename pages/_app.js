@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Rusters - Meme coin ICO & Crypto Next Js Template</title>
+        <title>Rasters - Meme coin ICO & Crypto Next Js Template</title>
       </Head>
       <GlobalAOSProvider>
         <Component {...pageProps} />

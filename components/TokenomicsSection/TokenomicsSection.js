@@ -34,13 +34,13 @@ const TokenomicsSection = () => {
       id="id_ico_tokenomics_section"
       className="ico_tokenomics_section section_space pb-0"
     >
-      <div className="container">
+      {/* <div className="container">
         <div
           className="ico_heading_block text-center"
           data-aos="fade-up"
           data-aos-duration="600"
         >
-          <h2 className="heading_text mb-0">Rusters Tokenomics</h2>
+          <h2 className="heading_text mb-0">Rasters Tokenomics</h2>
         </div>
 
         <div className="row align-items-center">
@@ -72,6 +72,7 @@ const TokenomicsSection = () => {
               ))}
             </ul>
           </div>
+          <div ></div>
 
           <div className="col-lg-4">
             <div className="icon_coins_image">
@@ -146,7 +147,7 @@ const TokenomicsSection = () => {
             </span>
           </Link>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

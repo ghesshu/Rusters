@@ -19,7 +19,7 @@ const HomePage3 = () => {
                     <Hero3 />
                     <AboutPepe />
                     <FeaturesSection />
-                    <TokenomicsSection />
+                    {/* <TokenomicsSection /> */}
                     <RoadmapSection /> 
                 </main>
                 <Footer />

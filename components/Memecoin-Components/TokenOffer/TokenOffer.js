@@ -31,10 +31,10 @@ const TokenOffer = () => {
               data-aos-duration="800"
             >
               <h2 className="heading_text text-uppercase">
-                It’s Time to Buy <mark>Meme</mark> Rusters!
+                It’s Time to Buy <mark>Meme</mark> Rasters!
               </h2>
               <p className="heading_description mb-0 pe-lg-5">
-                It’s time to buy Meme Rusters! Don’t miss out on the opportunity
+                It’s time to buy Meme Rasters! Don’t miss out on the opportunity
                 to be part of the most exciting and innovative crypto community.
               </p>
             </div>
@@ -90,7 +90,7 @@ const TokenOffer = () => {
               </div>
               <div className="countdown_wrapper">
                 <h3 className="heading_text text-uppercase">
-                  Start buy Rusters now!
+                  Start buy Rasters now!
                 </h3>
                 <TimeCountDown />
                 <ul
