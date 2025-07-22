@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Rasters - Meme coin ICO & Crypto Next Js Template</title>
+        <title>Rasters - Native AI Autonomous Trading for Memecoins</title>
       </Head>
       <GlobalAOSProvider>
         <Component {...pageProps} />

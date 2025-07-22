@@ -27,13 +27,13 @@ const HomePage = () => {
                     <PartnerSection />
                     <About />
                     <SolutionSection />
-                    <FeaturesSection />
+                    {/* <FeaturesSection /> */}
                     <ChooseSection />
                     <CoinpaySections />
                     <RoadmapSection />
                     {/* <TeamSection /> */}
                     {/* <WhitepaperSection /> */}
-                    <EventSection />
+                    {/* <EventSection /> */}
                     <FaqSection /> 
                     <Scrollbar />
                 </main>

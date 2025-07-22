@@ -33,7 +33,7 @@ const HomePage = () => {
                     <RoadmapSection />
                     <TeamSection />
                     {/* <WhitepaperSection /> */}
-                    <EventSection />
+                    {/* <EventSection /> */}
                     <FaqSection />
                     <Scrollbar />
                 </main>

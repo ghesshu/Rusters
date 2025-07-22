@@ -18,7 +18,7 @@ const AboutPage = (props) => {
                     <PageTitle pageTitle={'About Us'} pagesub={'About'} />
                     <About abClass={'pt-0'}/>
                     <SolutionSection />
-                    <FeaturesSection />
+                    {/* <FeaturesSection /> */}
                 </main>
                 <Footer />
                 <Scrollbar />
