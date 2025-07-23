@@ -19,6 +19,13 @@ const Footer = () => {
       <div className="container">
         <ul className="pagelist_block unordered_list justify-content-center text-uppercase">
           <li>
+            <NavLink href={"/"} className="nav-link scrollspy_btn">
+              <span className="nav_link_label" data-text="Home">
+                Home
+              </span>
+            </NavLink>
+          </li>
+          <li>
             <Link
               spy={true}
               smooth={true}
@@ -27,7 +34,7 @@ const Footer = () => {
               className="nav-link scrollspy_btn"
               to="id_ico_about_section"
             >
-              <span className="pagelist_label">About ICO</span>
+              <span className="pagelist_label">About Rasters</span>
             </Link>
           </li>
           <li>
@@ -43,6 +50,13 @@ const Footer = () => {
             </Link>
           </li>
           <li>
+            <NavLink href={"/contact"} className="nav-link scrollspy_btn">
+              <span className="nav_link_label" data-text="Home">
+                Contact
+              </span>
+            </NavLink>
+          </li>
+          {/* <li>
             <Link
               spy={true}
               smooth={true}
@@ -53,8 +67,8 @@ const Footer = () => {
             >
               <span className="pagelist_label">Tokenomics</span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               spy={true}
               smooth={true}
@@ -65,8 +79,8 @@ const Footer = () => {
             >
               <span className="pagelist_label">Roadmap</span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               spy={true}
               smooth={true}
@@ -77,8 +91,8 @@ const Footer = () => {
             >
               <span className="pagelist_label">Team</span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               spy={true}
               smooth={true}
@@ -89,7 +103,7 @@ const Footer = () => {
             >
               <span className="pagelist_label">Whitepaper</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
         <div className="middle_area">
           <div className="column">

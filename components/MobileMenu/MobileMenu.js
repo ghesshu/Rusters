@@ -129,8 +129,8 @@ const MobileMenu = () => {
             offset={-100}
             className="nav-link scrollspy_btn"
           >
-            <span className="nav_link_label" data-text="About ICO">
-              About ICO
+            <span className="nav_link_label" data-text="About Rasters">
+              About Rasters
             </span>
           </Link>
         </li>

@@ -102,7 +102,10 @@ const Header4 = (props) => {
                     </li>
                     <li>
                       <NavLink onClick={ClickHandler} href="/about">
-                        <span className="nav_link_label" data-text="About ICO">
+                        <span
+                          className="nav_link_label"
+                          data-text="About Rasters"
+                        >
                           About Us
                         </span>
                       </NavLink>
