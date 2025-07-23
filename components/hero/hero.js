@@ -115,7 +115,7 @@ const Hero = () => {
             >
               <TimeCountDown />
             </div>
-            <div className="ico_progress">
+            {/* <div className="ico_progress">
               <ul className="progress_range_step unordered_list justify-content-between">
                 <li>Soft Cap: $1.75m</li>
                 <li>Hard Cap: $4.75m</li>
@@ -134,7 +134,7 @@ const Hero = () => {
                 <li>Minimum Purchase: 200 ICOX</li>
                 <li>Raised so far: $1,830,985</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

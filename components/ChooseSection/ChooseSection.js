@@ -13,7 +13,7 @@ const services = [
     icon: icon1,
     title: "Risk Intelligence",
     description:
-      "Rasters' Risk Agent continuously scans token contracts, liquidity pools, and on-chain activity to protect you from honeypots, rugs, and malicious code—before a trade is ever placed.",
+      "Rasters Risk Agent continuously scans token contracts, liquidity pools, and on-chain activity to protect you from honeypots, rugs, and malicious code—before a trade is ever placed.",
     delay: 200,
   },
   {
@@ -38,7 +38,6 @@ const services = [
     delay: 500,
   },
 ];
-
 
 const ChooseSection = () => {
   return (

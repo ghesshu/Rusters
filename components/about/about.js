@@ -27,7 +27,7 @@ const About = (props) => {
                   data-aos-delay="100"
                 >
                   <h3 className="title_text">
-                    Smarter Trading.Real-Time Decisions
+                    Smarter Trading With Real-Time Decisions
                   </h3>
                   <p className="info_description mb-0">
                     Full AI Coordination. In a world of noisy markets and
@@ -65,7 +65,7 @@ const About = (props) => {
                   data-aos-duration="600"
                   data-aos-delay="300"
                 >
-                  <h3 className="title_text">. Risk-Aware by Design</h3>
+                  <h3 className="title_text"> Risk-Aware by Design</h3>
                   <p className="info_description mb-0">
                     Before a trade is even placed, the Risk Agent checks for
                     malicious contracts, blacklisted liquidity, honeypots, and

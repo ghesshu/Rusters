@@ -39,7 +39,7 @@ const TimeCountDown = ({ dateClass }) => {
   return (
     <ul className={`countdown_timer_block unordered_list justify-content-center ${dateClass}`}>
       {['Days', 'Hours', 'Min', 'Sec'].map((label, index) => {
-        const timeValues = [timeLeft.days, timeLeft.hours, timeLeft.minutes, timeLeft.seconds];
+        const timeValues = [0, 0, 0, 0];
         return (
           <li className="time-section" key={label}>
             <span className="time">{timeValues[index]}</span>
@@ -48,6 +48,17 @@ const TimeCountDown = ({ dateClass }) => {
         );
       })}
     </ul>
+    // <ul className={`countdown_timer_block unordered_list justify-content-center ${dateClass}`}>
+    //   {['Days', 'Hours', 'Min', 'Sec'].map((label, index) => {
+    //     const timeValues = [timeLeft.days, timeLeft.hours, timeLeft.minutes, timeLeft.seconds];
+    //     return (
+    //       <li className="time-section" key={label}>
+    //         <span className="time">{timeValues[index]}</span>
+    //         <small className="time-text">{label}</small>
+    //       </li>
+    //     );
+    //   })}
+    // </ul>
   );
 };
 
