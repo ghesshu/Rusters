@@ -25,10 +25,10 @@ const HomePage = () => {
                 <main className="page_content">
                     <Hero />
                     <PartnerSection />
-                    <About />
+                    {/* <About /> */}
                     <SolutionSection />
                     {/* <FeaturesSection /> */}
-                    <ChooseSection />
+                    {/* <ChooseSection /> */}
                     <CoinpaySections />
                     <RoadmapSection />
                     {/* <TeamSection /> */}

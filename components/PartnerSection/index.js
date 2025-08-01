@@ -3,13 +3,20 @@ import Slider from "react-slick";
 import Link from 'next/link'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pimg1 from '/public/images/partners/partner_logo_1.svg'
-import pimg2 from '/public/images/partners/partner_logo_2.svg'
-import pimg3 from '/public/images/partners/partner_logo_3.svg'
-import pimg4 from '/public/images/partners/partner_logo_4.svg'
-import pimg5 from '/public/images/partners/partner_logo_5.svg'
-import pimg6 from '/public/images/partners/partner_logo_6.svg'
-import pimg7 from '/public/images/partners/partner_logo_5.svg'
+// import pimg1 from '/public/images/partners/partner_logo_1.svg'
+// import pimg2 from '/public/images/partners/partner_logo_2.svg'
+// import pimg3 from '/public/images/partners/partner_logo_3.svg'
+// import pimg4 from '/public/images/partners/partner_logo_4.svg'
+// import pimg5 from '/public/images/partners/partner_logo_5.svg'
+// import pimg6 from '/public/images/partners/partner_logo_6.svg'
+// import pimg7 from '/public/images/partners/partner_logo_5.svg'
+import pimg1 from '/public/images/partners/one.png'
+import pimg2 from '/public/images/partners/two.png'
+import pimg3 from '/public/images/partners/three.png'
+import pimg4 from '/public/images/partners/one.png'
+import pimg5 from '/public/images/partners/two.png'
+import pimg6 from '/public/images/partners/three.png'
+import pimg7 from '/public/images/partners/one.png'
 import Image from "next/image";
 
 const partners = [

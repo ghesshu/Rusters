@@ -276,7 +276,7 @@ const Header = (props) => {
                   <NavLink
                     onClick={ClickHandler}
                     className="ico_btn_outline"
-                    href="https://rasters.vercel.app/"
+                    href="https://rasters-chat.vercel.app"
                   >
                     <span className="btn_icon">
                       <i className="fa-solid fa-user"></i>

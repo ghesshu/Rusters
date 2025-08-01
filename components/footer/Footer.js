@@ -5,9 +5,6 @@ import NavLink from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-  };
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -56,54 +53,6 @@ const Footer = () => {
               </span>
             </NavLink>
           </li>
-          {/* <li>
-            <Link
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-100}
-              className="nav-link scrollspy_btn"
-              to="id_ico_tokenomics_section"
-            >
-              <span className="pagelist_label">Tokenomics</span>
-            </Link>
-          </li> */}
-          {/* <li>
-            <Link
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-100}
-              className="nav-link scrollspy_btn"
-              to="id_ico_roadmap_section"
-            >
-              <span className="pagelist_label">Roadmap</span>
-            </Link>
-          </li> */}
-          {/* <li>
-            <Link
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-100}
-              className="nav-link scrollspy_btn"
-              to="id_ico_team_section"
-            >
-              <span className="pagelist_label">Team</span>
-            </Link>
-          </li> */}
-          {/* <li>
-            <Link
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-100}
-              className="nav-link scrollspy_btn"
-              to="id_ico_whitepaper_section"
-            >
-              <span className="pagelist_label">Whitepaper</span>
-            </Link>
-          </li> */}
         </ul>
         <div className="middle_area">
           <div className="column">
@@ -125,27 +74,11 @@ const Footer = () => {
                   </svg>
                 </NavLink>
               </li>
-              <li>
-                <NavLink href="/">
-                  <i className="fa-brands fa-github"></i>
-                </NavLink>
-              </li>
             </ul>
           </div>
           <div className="column">
             <h3 className="footer_title text-uppercase">
-              Subscribe to our newsletter
-            </h3>
-            <form className="ico_newsletter_form" onSubmit={SubmitHandler}>
-              <input type="email" name="email" placeholder="Enter your email" />
-              <button className="submit_btn" type="submit">
-                Submit
-              </button>
-            </form>
-          </div>
-          <div className="column">
-            <h3 className="footer_title text-uppercase">
-              Let’s Rasters great together.
+              Let's Rasters great together.
             </h3>
             <NavLink
               className="ico_creative_btn"
